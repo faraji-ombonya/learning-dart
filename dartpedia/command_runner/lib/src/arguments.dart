@@ -74,7 +74,7 @@ abstract class Command extends CliElement {
     );
   }
 
-  Future<Object?> run(ArgResults args);
+  FutureOr<Object?> run(ArgResults args);
 
   @override
   String get usage {
